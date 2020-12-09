@@ -1,0 +1,37 @@
+Zadanie 1
+curl -X PUT -i -H 'Content-Type:application/json' http://localhost:8098/buckets/s23672/keys/jeden  -d '{"nazwa":"Lokoya Cabernet Sauvignon Howell Mountain 2007","styl":"dry","color":"red","ALK":15%}' 
+
+curl -X PUT -i -H "Content-Type:application/json" http://localhost:8098/buckets/s23672/keys/dwa -d '{"nazwa":"Chateau Haut-Brion","styl":"dry","color":"red","ALK":13%}'
+ 
+curl -X PUT -i -H "Content-Type:application/json" http://localhost:8098/buckets/s23672/keys/trzy  -d '{"nazwa":"Domaine de la Romanee-Conti Richebourg 1997","styl":"dry","color":"red","ALK":13%}' 
+
+curl -X PUT -i -H "Content-Type:application/json" http://localhost:8098/buckets/s23672/keys/cztery  -d '{"nazwa":"Tenuta San Guido Sassicaia","styl":"dry","color":"red","ALK":13.5%}' 
+
+curl -X PUT -i -H "Content-Type:application/json" http://localhost:8098/buckets/s23672/keys/pięć -d '{"nazwa":"Morgante Don Antonio Nero d'Avola 2014","styl":"dry","color":"red","ALK":15%}' 
+
+Zadanie 2
+curl http://localhost:8098/buckets/s23672/keys/jeden
+
+Zadanie 3
+curl -X PUT -i -H 'Content-Type:application/json' http://localhost:8098/buckets/s23672/keys/jeden -d '{"nazwa":"Lokoya Cabernet Sauvignon Howell Mountain 2007","styl":"dry","color":"red","ALK":15%,"cena":73145}'
+
+Zadanie 4
+curl -X PUT -i -H "Content-Type:application/json" http://localhost:8098/buckets/s23672/keys/dwa -d '{"nazwa":"Chateau Haut-Brion","styl":"dry","color":"red"}'
+
+Zadanie 5
+curl -X PUT -i -H "Content-Type:application/json" http://localhost:8098/buckets/s23672/keys/trzy -d '{"nazwa":"Domaine de la Romanee-Conti Richebourg 1997","styl":"dry","color":"red","ALK":13%}'
+
+Zadanie 6
+curl -X DELETE -i http://localhost:8098/buckets/s23672/keys/jeden
+
+Zadanie 7
+curl http://localhost:8098/buckets/s23672/keys/dziesięć
+
+Zadanie 8
+curl -X POST -i -H "Content-Type:application/json" http://localhost:8098/buckets/s23672/keys/ -d '{"nazwa":"test"}'
+
+Zadanie 9
+curl http://localhost:8098/buckets/s23672/keys/ELgnERXhfLzldFpyoXSi1fie4zg
+
+Zadanie 10
+curl -X DELETE -i http://localhost:8098/buckets/s23672/keys/ELgnERXhfLzldFpyoXSi1fie4zg
