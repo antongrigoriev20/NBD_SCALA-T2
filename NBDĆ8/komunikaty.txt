@@ -1,0 +1,3 @@
+Added: {"name": "Chateau Mouton Rothschild Pauillac", "color": "red", "alk": 13.0%}
+Modified: {"name": "Chateau Mouton Rothschild Pauillac", "color": "red", "alk": 13.5%}
+Deleted: not found
